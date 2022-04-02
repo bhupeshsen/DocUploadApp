@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_docs_upload_white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:gravity="center"
+            android:text="Pic Image"
+
+            android:textSize="14sp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/remove_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+
+            android:gravity="center"
+            android:textStyle="normal"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="5sp"
+            android:text="Remove"
+            android:textSize="20dp"
+            tools:ignore="SpUsage" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/take_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:gravity="center"
+            android:text="camera"
+            android:textStyle="normal"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="5sp"
+
+            android:textSize="20sp"
+            tools:ignore="SpUsage" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/choose_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:gravity="center"
+            android:text="gallery"
+            android:textStyle="normal"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"
+            tools:ignore="SpUsage" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_docs_upload_white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Cancel"
+
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DocUploadApp</string>
+
+    <string name="cam_permission_message">wants to access your camera to click photo, please provide access to your camera.</string>
+    <string name="gallery_permission_message">wants to access your gallery to use photo, please provide access to your gallery.</string>
+    <string name="doc_permission_message">wants to access your doc/pdf to use photo, please provide access to your storage.</string>
+    <string name="pdf_doc">PDF/DOC</string>
+    <string name="image_screenshot">IMAGE/SCREENSHOT</string>
+
+</resources>
